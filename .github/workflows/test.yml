@@ -15,7 +15,7 @@ jobs:
     steps:
     # Checkout Repository
     - name: Checkout Code
-    - run: actions/checkout@v4
+    - uses: actions/checkout@v4
 
     #Set up .NET SDK
     - name: Set up .NET SDK
