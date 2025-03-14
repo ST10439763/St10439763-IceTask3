@@ -34,4 +34,3 @@ jobs:
     # Build the Project
     - name: Project Build
     - run: dotnet build --configuration release
-    
