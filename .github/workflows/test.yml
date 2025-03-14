@@ -3,9 +3,9 @@ name: Build and Syntax Check
 #When the workflow runs
 on:
   push:
-    branches: ["main"] 
+    branches: ["master"] 
   pull_request:
-    branches: ["main"]
+    branches: ["master"]
 
 jobs:
   #Creates a virtual machine
